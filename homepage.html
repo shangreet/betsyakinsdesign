@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <script src=""></script>
+        <script src="https://kit.fontawesome.com/807940a7b5.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="homepage.html"><img src="name_logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="">MY PROJECTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="show()"></i>        
+        </nav>
+
+<div class="text-box">
+    <h1>Portfolio</h1>
+    <p>This will be a cool <br> portfolio website</p>
+    <br>
+    <a href="" class=cta-button>enter</a>
+</div>
+
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function show() {
+        navLinks.style.right = "0";
+    }
+    function hide(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+<link rel="stylesheet" href="style.css">
+</html>
