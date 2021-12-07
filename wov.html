@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/807940a7b5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wov_style2.css">
+    <title>Women of Vienna</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="homepage.html"><img src="images/name_logo2.png" alt="Tape Betsy Akins logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects1.html">MY PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="show()"></i>        
+        </nav>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <ul>
+                <li><a href="">VaLO</a></li>
+                <li><a href="">Women of Vienna</a></li>
+                <li><a href="">Safetrail</a></li>
+                <li><a href="">Solu</a></li>
+            </ul>
+        </div>
+        <div class="info_text">
+            <img src="images/lvl4.png">
+            <img src="images/wov_tape.png">
+            <p>In February 2015, I co-founded a Facebook group with one other person called Women of Vienna. It
+                started as a longing for a community that offered support, connectivity, and the opportunity to make
+                friendships. We were soon asked to organize in-person events, the first of which 40 women attended.
+                Our events became so popular that we took on a third team member to help us with administrative
+                tasks and hosting.</p>
+                <br>
+            <p>For me, it was clear from the very beginning that we would have to concretely define our values and
+                goals to keep the community from developing into something we did not want. This meant sticking to
+                those values and goals even when it was difficult, while at the same time maintaining an open mind
+                and a sense of flexibility. My main role was defining the guidelines under which the group functioned
+                and developing a concrete identity for the community. Soon, recurring themes started to appear and I
+                developed a model for topic subgroups, or smaller themed communities.</p>
+            <br>  
+            <p>Five years later, we reached over 20,000 members in our main group and 11 topical subgroups led
+                by a team of 25+ volunteers. Our non-profit organization status was officially recognized by the
+                governing body in Vienna in 2019. We became beta testers for new Facebook Groups features and
+                one of our team was a part of a development group run by Facebook. We built a visual language to
+                accompany the brand of Women of Vienna and began to focus more on our public facing
+                representation of the community.</p>
+            <br>
+            <p>The most valuable lessons I learned from developing and leading this group include; how to work
+                with an incredibly diverse team, how to hack an existing platform (Facebook) to fit individual needs,
+                and how to keep the big picture in mind when focusing on details. Today I am immensely proud of
+                Women of Vienna, the lives it has changed and the good it has done. It has shown me that being
+                intentional, consistent, and persistent is the best way to build a quality product.</p>
+            <br>
+            <p id="bold">Women of Vienna was initiated in February 2015 by Betsy Akins and Michelle Hrvat. It was
+                recognized as an official non-profit organization in 2019.</p>
+        </div>
+        <div class="info_pics">
+            <img src="images/Portfolio Wov.007.png">
+            <img src="images/Portfolio Wov.002.png">
+            <img src="images/Portfolio Wov.003.png">
+
+        </div>
+        <div class="info_pics2">
+            <img src="images/Portfolio Wov.004.png">
+            <img src="images/Portfolio Wov.006.png">
+
+        </div>
+        <section class="footer">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/betsy-akins-she-her-216807bb"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:shangreet@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/betsyakins/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </div>
+
+<!----JavaScript for nav menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function show() {
+        navLinks.style.right = "0";
+    }
+    function hide(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
