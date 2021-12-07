@@ -108,7 +108,7 @@
 }
 /*FOOTER*/
 
-.footer {
+footer {
     grid-area: footer;
     align-items: center;
     text-align: center;
