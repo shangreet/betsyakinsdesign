@@ -73,24 +73,9 @@
     display: none;
 }
 
-.main {
-    display:grid;
-    height:auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.3fr 1fr 1fr 1fr 0.1;
-    grid-template-areas: 
-    "nav"
-    "sidebar"
-    "info_text"
-    "info_pics"
-    "info_pics2"
-    "footer";
-    grid-gap: 0.5rem;
-    text-align:center;
-}
 /* SIDEBAR*/
 
-.sidebar ul li {
+side ul li {
     list-style: none;
     display: inline-block;
     padding: 5px 15px;
@@ -99,11 +84,11 @@
     text-transform: uppercase;
     font-size: 20px;
 }
-.sidebar ul li a{
+side ul li a{
     color:black;
     text-decoration: none;
 }
-.sidebar ul li::after{
+side ul li::after{
     content: "";
     width: 100%;
     height: 2px;
@@ -111,7 +96,7 @@
     display: block;
     margin: auto;
 }
-.sidebar ul li:hover{
+side ul li:hover{
     background-color: rgba(209,233,227,255);
 }
 
@@ -150,7 +135,7 @@
 }
 /*FOOTER*/
 
-.footer {
+footer {
     grid-area: footer;
     align-items: center;
     text-align: center;
@@ -172,7 +157,7 @@
     background:rgba(209,233,227,255);
     grid-area:nav;
 }
-.sidebar{
+side{
     background-color:white;
     grid-area:sidebar;
 }
@@ -236,7 +221,7 @@ h2{
     .info_text p{
         text-align: left;
     }
-    .sidebar ul li {
+    side ul li {
         list-style: none;
         display: block;
         padding: 15px 12px;
