@@ -71,7 +71,7 @@
 }
 /*FOOTER*/
 
-.footer {
+footer {
     grid-area: footer;
     align-items: center;
     text-align: center;
@@ -135,7 +135,7 @@ body{
     background-color: rgba(243,243,241,255);
 }
 @media (min-width: 700px){
-    .main {
+    header {
         display:grid;
         height:auto;
         grid-template-columns: 1fr 1fr;
@@ -184,7 +184,7 @@ body{
     .cta-button{
         display: inline-block;
     }
-    .footer{
+    footer{
         margin-top: 10px;
     }
 }
