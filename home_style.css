@@ -135,7 +135,7 @@ body{
     background-color: rgba(243,243,241,255);
 }
 @media (min-width: 700px){
-    header {
+    main {
         display:grid;
         height:auto;
         grid-template-columns: 1fr 1fr;
