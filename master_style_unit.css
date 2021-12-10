@@ -180,6 +180,11 @@ h2{
     text-align: left;
     font-size: 40px;
 }
+
+main{
+    text-align:center;
+}
+
 /* COMPUTER SCREENS*/ 
 
 @media (min-width:700px){
@@ -194,7 +199,6 @@ h2{
         "info_pics2 info_pics2 info_pics2"
         "footer footer footer";
         grid-gap: 0.5rem;
-        text-align:center;
     }
     .nav {
         display: flex;
